@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 DemoApp::Application.configure do
+=======
+Rails.application.configure do
+>>>>>>> f897052cc9019ca23a9ad8a32e917f319ba3fa29
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's
@@ -14,7 +18,11 @@ DemoApp::Application.configure do
 
   # Configure static asset server for tests with Cache-Control for performance.
   config.serve_static_assets  = true
+<<<<<<< HEAD
   config.static_cache_control = "public, max-age=3600"
+=======
+  config.static_cache_control = 'public, max-age=3600'
+>>>>>>> f897052cc9019ca23a9ad8a32e917f319ba3fa29
 
   # Show full error reports and disable caching.
   config.consider_all_requests_local       = true
@@ -33,4 +41,10 @@ DemoApp::Application.configure do
 
   # Print deprecation notices to the stderr.
   config.active_support.deprecation = :stderr
+<<<<<<< HEAD
+=======
+
+  # Raises error for missing translations
+  # config.action_view.raise_on_missing_translations = true
+>>>>>>> f897052cc9019ca23a9ad8a32e917f319ba3fa29
 end
